@@ -1,0 +1,138 @@
+.set_bgcolor-black{
+    background-color: black;
+}
+.custom-navbar.set_bgcolor-black{
+    background-color: black;
+}
+
+
+
+.set_bgimg{
+    padding: 0px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.sigma-start {
+    margin: 10px;
+    padding: 16px 40px;
+    min-width: 200px;
+    font-size: 22px;
+}
+
+.background{
+    background: url('../images/background3.jpg') 50% 0 repeat-y fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.background p {
+
+    font-size: x-large;
+    color: inherit;
+    left: 1000px;
+
+
+}
+.background h1{
+    padding: 20px 0 0 0;
+    font-size: 90px;
+    letter-spacing: 10px;
+    font-weight:100;
+
+}
+
+.background h3{
+    font-size: 50px;
+    line-height: 47px;
+    text-align: left;
+    color: inherit;!important;
+    padding: 0 0 0 20px;
+}
+.set_double-img-under1{
+    position:absolute; z-index:1;
+    width: 1800px; height: 500px;
+    left: -952px;
+
+}
+
+.set_double-img-above1{
+    position:absolute; top:-100px; left:633px; z-index:2;
+    left: 70px;
+}
+
+.set_double-img-under2{
+    position:absolute; z-index:1;
+    width: 1800px; height: 500px;
+    left: -264px;
+
+}
+
+.set_double-img-above2{
+    position:absolute; top:-100px; left:633px; z-index:2;
+    left: -85px;
+}
+
+#overview h2{
+    padding: 0 0 0 100px;
+}
+
+#overview{
+    background-color: inherit;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#overview .form-control {
+    background: transparent;
+    border: 2px solid #a07070;
+    border-radius: 0px;
+    color: #ffffff;
+    margin-bottom: 16px;
+    font-size: 25px;
+
+}
+#overview input {
+    height: 45px;
+}
+
+#overview input[type="submit"] {
+    background: #f2545f;
+    border-radius: 100px;
+    border: none;
+    color: #ffffff;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 12px;
+    transition: all 0.4s ease-in-out;
+}
+
+#overview input[type="submit"]:hover {
+    background: #ffffff;
+    color: #222;
+}
+
+
+#zhuce {
+
+}
